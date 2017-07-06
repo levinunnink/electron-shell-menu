@@ -1,0 +1,24 @@
+{
+  "name": "win32shellmenu",
+  "version": "0.4.1",
+  "description": "Allows a node.js application to register a windows explorer context menu shell extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Pete Ward <peteward44@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "edge": "^5.0.0",
+    "fs-extra": "^0.26.4",
+    "node-windows": "^0.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteward44/node-win32shellmenu.git"
+  },
+  "ignore": [
+    "test"
+  ]
+}
